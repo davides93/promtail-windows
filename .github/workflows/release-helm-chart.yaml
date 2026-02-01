@@ -3,7 +3,7 @@ name: Release Helm Chart
 on:
   push:
     branches:
-      - main
+      - gh-pages
     paths:
       - 'helm/**'
   workflow_dispatch:
