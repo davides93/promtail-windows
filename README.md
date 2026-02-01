@@ -96,6 +96,12 @@ The `values.yaml` file allows you to customize various aspects of the Promtail d
 - Node placement settings (nodeSelector, tolerations, affinity).
 - Custom Promtail configuration (Loki URL, positions file).
 
+## Helm Chart Repository
+
+The Helm charts are automatically published to GitHub Pages at `https://davides93.github.io/promtail-windows` via GitHub Actions. The workflow runs automatically when changes are pushed to the `main` branch that affect the `helm/**` directory.
+
+If you encounter a 404 error when adding the Helm repository, it may mean the GitHub Pages site hasn't been initialized yet. Repository maintainers can manually trigger the release workflow from the [Actions tab](https://github.com/davides93/promtail-windows/actions/workflows/release-helm-chart.yaml) to publish the charts.
+
 ## Contributing
 
 Contributions to this repository are welcome! If you find issues or want to enhance the Helm chart, feel free to submit a pull request. Make sure to follow best practices and provide clear documentation for your changes.
