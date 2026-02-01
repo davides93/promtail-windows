@@ -5,6 +5,8 @@ on:
     branches:
       - main
       - development
+    paths:
+      - 'Container/**'
 
 env:
   DOCKER_HUB_USERNAME: diquzart
