@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  promtail-win:
+  - apiVersion: v2
+    appVersion: 2.8.2
+    created: "2026-02-01T15:09:09.867870681Z"
+    description: A Helm chart to deploy Promtail on Windows nodes
+    digest: bab6c34569efcf85db9652202bcf86a48d6d0c2c7637131fa2b5895759965a11
+    keywords:
+    - promtail
+    - loki
+    - logging
+    - windows
+    maintainers:
+    - name: Muhammed Iqbal
+    name: promtail-win
+    type: application
+    urls:
+    - https://github.com/davides93/promtail-windows/releases/download/promtail-win-1.0.0/promtail-win-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-02-01T15:09:09.867881571Z"
