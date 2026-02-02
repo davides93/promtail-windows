@@ -106,6 +106,7 @@ If you encounter a 404 error when adding the Helm repository, it may mean the Gi
 
 Contributions to this repository are welcome! If you find issues or want to enhance the Helm chart, feel free to submit a pull request. Make sure to follow best practices and provide clear documentation for your changes.
 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
